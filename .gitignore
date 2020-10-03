@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 db.sqlite3
 local_settings.py
+
+# My additions
+solutions
+starter-code
+projects
