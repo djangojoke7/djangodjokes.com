@@ -1,3 +1,10 @@
-from django.shortcuts import render
+#from django.shortcuts import render
+from django.views.generic import ListView
+from .models import Joke
 
-# Create your views here.
+# Minimal list view
+class JokeListView(ListView):
+    model = Joke
+
+
+
